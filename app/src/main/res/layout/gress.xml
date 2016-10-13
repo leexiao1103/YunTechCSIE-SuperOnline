@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView16"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/gress"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="草叢"
+        android:id="@+id/textView38"
+        android:textSize="20pt"
+        android:layout_below="@+id/imageView14"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="充滿神奇寶貝的地方，聽說最近還有一直該說要當神奇寶貝大師的人出現。 "
+        android:id="@+id/textView39"
+        android:textSize="12pt"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="鯉魚王：魚類神奇寶貝，只會魚濺躍，非常弱。"
+        android:id="@+id/textView40"
+        android:textSize="12pt"
+        android:textColor="#FCFCFC"
+
+        android:layout_below="@+id/textView39"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="水箭龜：喀瞇龜的進化，肩膀的水管可以噴出強力的水柱。"
+        android:id="@+id/textView41"
+
+        android:textIsSelectable="false"
+        android:textSize="12pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView40"
+        android:layout_alignLeft="@+id/textView40"
+        android:layout_alignStart="@+id/textView40" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="腕力：肌肉猛男神奇寶貝，頭上的頭髮聽說具有其他用途。"
+        android:id="@+id/textView42"
+
+        android:textSize="12pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView41"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="超夢：幻獸神奇寶貝，地表最強，有著神祕的力量，可以控制心智。"
+        android:id="@+id/textView43"
+
+        android:textSize="12pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView42"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView15"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bigtree"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="據點人物：大木博士、皮喀丘、Dr.都"
+        android:id="@+id/textView35"
+        android:textSize="16pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="大木博士的家"
+        android:id="@+id/textView36"
+        android:textSize="20pt"
+        android:layout_below="@+id/imageView14"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="大木博士，嫌疑人之一，是個神奇寶貝通同時也是特務憑證的開發者。Dr.都，嫌疑人之一，怪裡怪氣的她整天忙著研究奇怪的事物，皮喀丘博士們的廉價勞工，還要負責發電，在這裡可以打雜賺點錢。"
+        android:id="@+id/textView37"
+        android:textSize="14pt"
+        android:layout_below="@+id/textView29"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="380dp" />
+</RelativeLayout>
+</ScrollView>

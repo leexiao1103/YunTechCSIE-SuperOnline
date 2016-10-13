@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView17"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="據點人物：酒館當家、Maki腰子龍毀"
+        android:id="@+id/textView44"
+        android:textSize="16pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="風華酒館"
+        android:id="@+id/textView45"
+        android:textSize="20pt"
+        android:layout_below="@+id/imageView14"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="酒館當家什麼東西都有賣，酒就不用多說了，最特別的是不知道那裡偷來的寶貝球，還賣好幾顆。Maki腰子龍毀，性別不明，每天都在酒館裡喝酒，喝完就會去路上找人單挑。 "
+        android:id="@+id/textView46"
+        android:textSize="14pt"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/textView44"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</ScrollView>

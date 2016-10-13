@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#1C1C1C</item>
+        <item name="colorPrimaryDark">#007979</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TextViewStyle" parent="TextView.DefaultStyle">
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textColor">#26D0EB</item>
+    </style>
+    <style name="progressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--  邊框  -->
+        <item name="android:windowIsFloating">true</item><!--  是否懸浮在activity上 -->
+        <item name="android:windowIsTranslucent">true</item> <!--  半透明 -->
+        <item name="android:windowNoTitle">true</item> <!--  無標題 -->
+        <item name="android:windowBackground">@android:color/transparent</item> <!--  背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>  <!--  模糊 -->
+        <item name="android:backgroundDimAmount">0.6</item> <!--  灰度 -->
+        <item name="android:windowContentOverlay">@null</item><!--  對話框是否有遮蓋  -->
+        <!--   <item name="android:windowAnimationStyle">@style/dialog_animation</item>彈出或者進入時的動畫效果 -->
+        <item name="android:colorBackgroundCacheHint">@null</item> <!--  背景緩存顔色  -->
+    </style>
+</resources>

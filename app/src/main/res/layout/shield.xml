@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageView18"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shield"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+          />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="據點人物：美國隊長"
+            android:id="@+id/textView65"
+            android:textSize="16pt"
+            android:textColor="#FCFCFC"
+            android:layout_below="@+id/textView66"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="神盾局"
+            android:id="@+id/textView66"
+            android:textSize="20pt"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FCFCFC"
+            android:layout_marginTop="250dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="神盾局是一間保險公司，他們什麼保單都接，王牌業務美國隊長，同時也是嫌疑犯，還持有來自宇宙的神祕物品，據說是他每推銷必成功的原因。"
+            android:id="@+id/textView67"
+            android:textSize="14pt"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FCFCFC"
+            android:layout_marginTop="390dp" />
+    </RelativeLayout>
+</ScrollView>

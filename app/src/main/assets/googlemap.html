@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type ="text/css">
+    html {height:100%}
+    body {height:100%;margin:0;padding:0}
+    #map_canvas {height:100%;width:100%}
+    </style>
+
+    <script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&sensor=true"></script>
+    <script>
+      var m1; //雲科大學生活動中心
+      var map;
+	  var image = 'file:///android_res/drawable/location.PNG'
+	  //var image = 'spy.PNG'
+	  var infowindow = new google.maps.InfoWindow();
+
+      function initialize() {
+		
+		m1 = new google.maps.LatLng(23.694496, 120.534079);
+        var mapOptions = {
+          zoom: 18,                                           //縮放大小
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          center: m1                                         //中心點
+        };
+        map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);	
+	
+//地圖樣式----------------------------------------------------------
+        var stylesArray = [
+            {
+        "featureType": "all",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#000000"
+            },
+            {
+                "lightness": 13
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#000000"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#144b53"
+            },
+            {
+                "lightness": 14
+            },
+            {
+                "weight": 1.4
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#08304b"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#0c4152"
+            },
+            {
+                "lightness": 5
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#000000"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#0b434f"
+            },
+            {
+                "lightness": 25
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#000000"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#0b3d51"
+            },
+            {
+                "lightness": 16
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#000000"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#146474"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#021019"
+            }
+        ]
+    }
+        ];
+        map.setOptions({styles: stylesArray});
+		
+		
+		var  marker = new google.maps.Marker({		//55688
+			  map:map,
+			  position:new google.maps.LatLng(23.693935, 120.533782),
+			  icon:image,
+			  });
+		var  marker2 = new google.maps.Marker({		//神盾局
+			  map:map,
+			  position:new google.maps.LatLng(23.693621, 120.534498),
+			  icon:image,
+			  });
+		var  marker3 = new google.maps.Marker({		//IMF
+			  map:map,
+			  position:new google.maps.LatLng(23.693790, 120.534844),
+			  icon:image,
+			  });
+		var  marker4 = new google.maps.Marker({		//小智
+			  map:map,
+			  position:new google.maps.LatLng(23.694496, 120.534079),
+			  icon:image,
+			  });
+		var  marker5 = new google.maps.Marker({		//實驗室
+			  map:map,
+			  position:new google.maps.LatLng(23.694710, 120.534430),
+			  icon:image,
+			  });
+		var  marker6 = new google.maps.Marker({		//OO7
+			  map:map,
+			  position:new google.maps.LatLng(23.694953, 120.535713),
+			  icon:image,
+			  });
+		var  marker7 = new google.maps.Marker({		//酒館
+			  map:map,
+			  position:new google.maps.LatLng(23.694516, 120.535918),
+			  icon:image,
+			  });
+		var  marker8 = new google.maps.Marker({		//安洋院
+			  map:map,
+			  position:new google.maps.LatLng(23.694992, 120.536104),
+			  icon:image,
+			  });
+		var  marker9 = new google.maps.Marker({		//世界政府
+			  map:map,
+			  position:new google.maps.LatLng(23.694706, 120.536664),
+			  icon:image,
+			  });
+		var  marker10 = new google.maps.Marker({	//東廠
+			  map:map,
+			  position:new google.maps.LatLng(23.694439, 120.537010),
+			  icon:image,
+			  });
+		var  marker11 = new google.maps.Marker({	//小
+			  map:map,
+			  position:new google.maps.LatLng(23.694300, 120.536821),
+			  icon:image,
+			  });
+		var  marker12 = new google.maps.Marker({	//深蹲局
+			  map:map,
+			  position:new google.maps.LatLng(23.695083, 120.536951),
+			  icon:'file:///android_res/drawable/spy.PNG',
+			  });
+		
+		
+		
+		infowindow.setContent('<div style="overflow:hidden;">' + 55688 + '</div>');
+		infowindow.open(map, marker);   //显示提示主窗口 
+		
+
+		var infowindow2 = new google.maps.InfoWindow();
+		infowindow2.setContent('<div style="overflow:hidden;">' + "神盾局" + '</div>');
+		infowindow2.open(map, marker2);
+		
+		
+		var infowindow3 = new google.maps.InfoWindow();
+		infowindow3.setContent('<div style="overflow:hidden;">' + 'IMF' + '</div>');
+		infowindow3.open(map, marker3);
+
+		var infowindow4 = new google.maps.InfoWindow();
+		infowindow4.setContent('<div style="overflow:hidden;">' + '小智' + '</div>');
+		infowindow4.open(map, marker4);
+
+		var infowindow5 = new google.maps.InfoWindow();
+		infowindow5.setContent('<div style="overflow:hidden;">' + '大木博士的家' + '</div>');
+		infowindow5.open(map, marker5);
+
+		var infowindow6 = new google.maps.InfoWindow();
+		infowindow6.setContent('<div style="overflow:hidden;">' + 'OO7' + '</div>');
+		infowindow6.open(map, marker6);
+
+		var infowindow7 = new google.maps.InfoWindow();
+		infowindow7.setContent('<div style="overflow:hidden;">' + '酒館' + '</div>')
+		infowindow7.open(map, marker7);
+
+		var infowindow8 = new google.maps.InfoWindow();
+		infowindow8.setContent('<div style="overflow:hidden;">' + '安洋院' + '</div>');
+		infowindow8.open(map, marker8);
+
+		var infowindow9 = new google.maps.InfoWindow();
+		infowindow9.setContent('<div style="overflow:hidden;">' + '世界政府' + '</div>');
+		infowindow9.open(map, marker9);
+
+		var infowindow10 = new google.maps.InfoWindow();
+        infowindow10.setContent('<div style="overflow:hidden;">' + '東廠' + '</div>');
+		infowindow10.open(map, marker10);
+
+		var infowindow11 = new google.maps.InfoWindow();
+		infowindow11.setContent('<div style="overflow:hidden;">' + '小' + '</div>');
+		infowindow11.open(map, marker11);
+
+		var infowindow12 = new google.maps.InfoWindow();
+		infowindow12.setContent('<div style="overflow:hidden;">' + '深蹲局' + '</div>');
+		infowindow12.open(map, marker12);
+}
+
+		
+    </script>
+</head>
+<body onload="initialize()">
+<div id="map_canvas">loading</div>
+</body>
+</html>

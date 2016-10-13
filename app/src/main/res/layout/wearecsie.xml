@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageView14"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/gooddown"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+         />
+
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="特務名單：局長、S探員、P探員、Y探員"
+        android:id="@+id/textView29"
+        android:textSize="16pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView30"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="深蹲局"
+        android:id="@+id/textView30"
+        android:textSize="20pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/imageView14"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="深蹲局，神秘的特務組織，目前局長意外身亡，S探員也無故失蹤，似乎有什麼重大的事情正在發生。P、Y探員為了尋找好友S的下落，拿著相機在路上觀察路人，經過他們的時候不妨停下來拍個照哦！"
+        android:id="@+id/textView31"
+        android:textSize="14pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C">
+
+
+    <include layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="418dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.80">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="#FCFCFC"
+            android:textSize="24dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ScrollView
+            android:orientation="horizontal"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:weightSum="1"
+           >
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText3"
+                app:met_baseColor="#87CEFF"
+                app:met_primaryColor="#DC143C"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="來聊天吧！"
+                android:paddingLeft="15dp"
+                android:hint="來聊天吧！"
+                android:layout_weight="0.86"
+                android:width="300dp" />
+        </ScrollView>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="傳送"
+                android:id="@+id/button3" />
+    </LinearLayout>
+
+
+</LinearLayout>

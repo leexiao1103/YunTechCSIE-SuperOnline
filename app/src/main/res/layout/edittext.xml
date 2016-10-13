@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/edittext"
+    android:gravity="center_vertical|center_horizontal">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="184dp"
+        android:layout_height="match_parent"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="深蹲局員工密碼"
+        app:met_baseColor="#00cc99"
+        app:met_primaryColor="#DC143C"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="不要偷偷進來喔"
+        android:gravity="center_vertical|center_horizontal" />
+</LinearLayout>

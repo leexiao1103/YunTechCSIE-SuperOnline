@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView18"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/yang"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="據點人物：安洋院長、慢秀雷蹲、神經病"
+        android:id="@+id/textView47"
+        android:textSize="16pt"
+        android:textColor="#FCFCFC"
+        android:layout_below="@+id/textView48"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="安洋院"
+        android:id="@+id/textView48"
+        android:textSize="20pt"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="好心的安洋院長和慢秀雷蹲共同創立的愛的醫院，收留各種發瘋、弱智、低能、腦殘、87疾病之人；而神經病堪稱是此院之王，自稱無所不知，但是講出來的話都被人認為是瘋言瘋語。哦對了，最詭異的是明明是醫院卻能客製化藥品，這地方夠怪了拔？"
+        android:id="@+id/textView49"
+        android:textSize="14pt"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/textView47"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+    </ScrollView>

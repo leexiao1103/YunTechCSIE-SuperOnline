@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:match="http://schemas.android.com/tools">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+   >
+
+
+        <com.example.user.yuncsie.secrettextview.SecretTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="超級資優生                                 第7行動"
+        android:id="@+id/textView4"
+        android:textSize="58dp"
+
+        android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="顛覆一切想像"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="clip_vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            android:id="@+id/editText"
+            app:met_iconLeft="@drawable/spy_fcking"
+            android:hint="UserName"
+            app:met_iconPadding="3dp"
+            app:met_textColorHint="#87CEFF"
+            app:met_baseColor="#00CC99"
+            app:met_primaryColor="#DC143C"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="UserName"
+
+            android:layout_marginLeft="50dp"
+            android:textSize="12pt" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/editText2"
+            android:hint="PassWord"
+            app:met_iconLeft="@drawable/locky"
+            app:met_iconPadding="3dp"
+            app:met_textColorHint="#87CEFF"
+            app:met_baseColor="#00CC99"
+            app:met_primaryColor="#DC143C"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="PassWord"
+            android:imeOptions="actionDone"
+            android:layout_marginLeft="50dp"
+            android:textSize="12pt" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/button"
+        />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

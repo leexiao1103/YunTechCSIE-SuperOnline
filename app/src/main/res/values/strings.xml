@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">第7行動</string>
+    <string name="day1">2015年4月1日</string>
+    <string name="day2">2015年5月15日</string>
+    <string name="day3">2015年9月28日</string>
+    <string name="day4">2015年11月28日</string>
+    <string name="day5">2015年10月10日</string>
+    <string name="day6">2015年12月27日</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>j
+    <string name="wine">酒保</string>
+    <string name="yang">安洋院長</string>
+    <string name="mission_money">任務和錢</string>
+    <string name="kill">暗殺</string>
+    <string name="drive">開車</string>
+    <string name="suit">變裝</string>
+    <string name="sience">化學</string>
+    <string name="girl">搭訕</string>
+    <string name="NPC">NPC</string>
+    <string name="chinese">技能名稱：強國人
+    施法咒語：讓讓!讓讓!我真牛B!
+    技能效果：在NPC遊戲開始前可以無條件插隊</string>
+    <string name="getmonster">技能名稱：強國人
+    施法咒語：讓讓!讓讓!我真牛B!
+    技能效果：在NPC遊戲開始前可以無條件插隊
+    </string>
+    <string name="gameboy"></string>
+    <string name="handgon"></string>
+    <string name="my_friend"></string>
+</resources>

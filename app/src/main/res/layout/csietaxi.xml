@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView15"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/taxi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="據點人物：皇伯、沃克靈魂"
+        android:id="@+id/textView32"
+        android:textSize="16pt"
+        android:layout_below="@+id/textView30"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="55688"
+        android:id="@+id/textView33"
+        android:textSize="20pt"
+        android:layout_below="@+id/imageView14"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="55688資工大車隊，想去那就call電話拔！這裡也是貨運集散地，可以在這裡兼差送貨打打零工。皇伯，嫌疑犯之一，大車隊元老，一輩子開車命。已故身亡的沃克靈魂也與他的愛車們在這裡。"
+        android:id="@+id/textView34"
+        android:textSize="14pt"
+        android:layout_below="@+id/textView29"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FCFCFC"
+        android:layout_marginTop="380dp" />
+</RelativeLayout>
+</ScrollView>

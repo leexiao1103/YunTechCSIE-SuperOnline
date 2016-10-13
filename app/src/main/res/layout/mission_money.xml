@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:gravity="center_horizontal"
+    >
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解鎖天眼"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:layout_width="98dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完成任務"
+                android:id="@+id/radioButton"
+                android:checked="false"
+                android:textColor="#FCFCFC"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扣除任務"
+                android:id="@+id/radioButton2"
+                android:checked="false"
+                android:textColor="#FCFCFC"
+                android:textSize="18dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="確定"
+            android:id="@+id/button9"
+            android:layout_gravity="left" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editText4" />
+
+        <Button
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:text="加錢"
+            android:id="@+id/button7"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扣錢"
+            android:id="@+id/button8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:text="暗殺"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="開車"
+            android:id="@+id/button6" />
+
+        <Button
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="變裝"
+            android:id="@+id/button10" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="搭訕"
+            android:id="@+id/button11" />
+
+        <Button
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="化學"
+            android:id="@+id/button12" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="謎底"
+        android:id="@+id/button15"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="初始化資料"
+        android:id="@+id/button14"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="結算"
+        android:id="@+id/button16"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
