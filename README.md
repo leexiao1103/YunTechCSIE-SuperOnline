@@ -7,15 +7,15 @@
 + 使用GoogleMap V3.0 API 顯示遊戲地圖
 + 主頁面左右滑動(ViewPage)能看到各NPC資訊
 + 核對工人密碼能進入工人介面
-+ 達到遊戲進度能夠解鎖影片
++ 達到遊戲進度能夠解鎖影片<br>
 ## 實際畫面
-<img src="readme_img/pic1.jpg">
-<img src="readme_img/pic2.jpg">
-<img src="readme_img/pic3.jpg">
-<img src="readme_img/pic4.jpg">
-<img src="readme_img/pic5.jpg">
-<img src="readme_img/pic6.jpg">
-<img src="readme_img/pic9.jpg">
-<img src="readme_img/pic10.jpg">
-<img src="readme_img/pic11.jpg">
-<img src="readme_img/pic12.jpg">
+<img src="readme_img/pic1.jpg" widht="300px" height="300px">
+<img src="readme_img/pic2.jpg" widht="300px" height="300px">
+<img src="readme_img/pic3.jpg" widht="300px" height="300px">
+<img src="readme_img/pic4.jpg" widht="300px" height="300px">
+<img src="readme_img/pic5.jpg" widht="300px" height="300px">
+<img src="readme_img/pic6.jpg" widht="300px" height="300px">
+<img src="readme_img/pic9.jpg" widht="300px" height="300px">
+<img src="readme_img/pic10.jpg" widht="300px" height="300px">
+<img src="readme_img/pic11.jpg" widht="300px" height="300px">
+<img src="readme_img/pic12.jpg" widht="300px" height="300px">
