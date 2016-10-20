@@ -8,6 +8,7 @@
 + 主頁面左右滑動(ViewPage)能看到各NPC資訊
 + 核對工人密碼能進入工人介面
 + 達到遊戲進度能夠解鎖影片<br>
+
 ## 實際畫面
 <img src="readme_img/pic1.jpg" widht="300px" height="300px">
 <img src="readme_img/pic2.jpg" widht="300px" height="300px">
